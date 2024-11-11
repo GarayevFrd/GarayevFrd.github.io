@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.all-buttons .navbutton {
+  font-size: 18px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(41, 135, 85);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.all-messages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 5px;
+}
+.all-messages .message {
+  max-width: 70%;
+  min-width: 30%;
+  border-radius: 10px;
+  padding: 10px 10px 5px;
+  display: flex;
+  flex-direction: column;
+}
+.all-messages .message .message-text {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-wrap: wrap;
+}
+.all-messages .message .message-date {
+  align-self: flex-end;
+  padding-top: 5px;
+  color: gray;
+}
+.all-messages .right {
+  align-self: flex-end;
+  background-color: rgb(142, 203, 142);
+}
+.all-messages .right .message-text {
+  align-self: flex-end;
+}
+.all-messages .left {
+  align-self: flex-start;
+  background-color: rgb(223, 228, 223);
+}
+.all-messages .left .message-text {
+  align-self: flex-start;
+}/*# sourceMappingURL=style.css.map */
